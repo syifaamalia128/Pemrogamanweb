@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban Digicraft</title>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Form Pemesanan Ringkas - Poliban Digicraft Studio</h1>
+            <nav>
+                <a href="../kontak.html">Kembali ke Beranda</a>
+            </nav>
+        <hr>
+     </header>
+     </center>
+     <!--Menampilkan Gambar Produk-->
+    <p>
+    <img src="../gambar/foto1.jpg" alt="Image" width="450"> 
+    <br>
+    <p><b>IMAGE</b></p>
+    <p>Deskripsi singkat tentang produk atau layanan yang ditawarkan oleh Poliban Digicraft. 
+        Informasi tambahan untuk pengguna</p>
+    </p>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr bgcolor="#008080">
+                <th>Package Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paket Basic</td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+               <td>Paket Standar</td>
+                <td>Rp 100.000</td> 
+            </tr>
+             <tr>
+               <td>Paket Premium</td>
+                <td>Rp 150.000</td> 
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form action="#" method="post">
+             <fieldset>
+                <p><b>Formulir Pemesanan</b></p>
+                <label for="nama_lengkap">Nama Lengkap:</label>
+                <input type="text" name="nama_lengkap" id="nama_lengkap" size="40" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email" size="40" required>
+                <br><br>
+
+                <label for="pilih_paket">Paket:</label>
+                <select name="pilih_paket" id="pilih_paket" required>
+                    <option value="">-- Pilih Paket Jasa --</option>
+                    <option value="Silver">Paket Basic (Rp. 50.000)</option>
+                    <option value="Gold">Paket Standar (Rp. 100.000)</option>
+                    <option value="Platinum">Paket Premium(Rp. 150.000)</option>
+                </select>
+                <br><br>
+                <button type="submit"><b>Kirim Pemesanan</b></button>
+             </fieldset>
+             </form>
+</body>
+</html>
