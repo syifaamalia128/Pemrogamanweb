@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog Produk & Portofolio - Poliban Digicraft Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Bagian Kepala Halaman (Header & Navigasi)-->
      <header>
-        <h1>Poliban Digicraft Studio</h1>
-        <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
-        <nav>
-            <a href="biodata.html">Tentang Founder</a> | 
-            <a href="produk.html"><b>Katalog Jasa & Paket Harga</b></a> |
-            <a href="kontak.html">Kontak & Pemesanan</a> 
-        </nav>
-        <hr>
+        <div class="container">
+            <h1>Poliban Digicraft Studio</h1>
+            <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
+            <nav>
+                <a href="biodata.html">Tentang Founder</a> | 
+                <a href="produk.html" class="active">Katalog Jasa & Paket Harga</a> |
+                <a href="kontak.html">Kontak & Pemesanan</a> 
+            </nav>
+        </div>
      </header>
-<section>
-    <h2>Portofolio & Karya Unggulan Kami</h2>
+
+     <main class="container">
+<section class="section">
+    <h2 class="section-title">Portofolio & Karya Unggulan Kami</h2>
+    <p class="section-subtitle">Beberapa proyek digital yang telah kami selesaikan untuk klien UMKM lokal</p>
 
     <!--Menampilkan Gambar Mockup (Gunakan gambar yang ada di folder 
     komputer Anda)-->
@@ -68,7 +73,7 @@
                 <td>Rp 3.500.000</td>
             </tr>
             <tr>
-                <td rowspan="2"><b>Content creator/b></td>
+                <td rowspan="2"><b>Content creator</b></td>
                 <td>Sosmed Bronze</td>
                 <td>12 Konten Feed, Copywriting Dasar</td>
                 <td>Rp 1.000.000</td>
@@ -81,6 +86,7 @@
         </tbody>
     </table>
 </section>
+</main>
 <footer>
         <hr>
         <p align="center">&copy; 2026 Poliban Digicraft Studio - Hak Cipta Dilindungi Undang-Undang.</p>
